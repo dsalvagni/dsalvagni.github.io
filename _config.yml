@@ -1,0 +1,25 @@
+name: Daniel Salvagni
+description: Full-stack web developer
+meta_description: "Front-end, back-end, PHP, Javascript, AngularJS, etc..."
+author: Daniel Salvagni
+email: danielsalvagni@gmail.com
+twitter_username: danielsalvagni
+github_username: dsalvagni
+disqus: dsalvagni
+
+sass:
+  style: compressed
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://dsalvagni.com.br'
+google_analytics: 'UA-38161905-1'
+
+# Details for the RSS feed generator
+url:            'http://dsalvagni.com.br'
+author:         'Daniel Salvagni'
+
+gems: [jekyll_github_sample]
