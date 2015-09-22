@@ -12,7 +12,8 @@ sass:
 
 markdown: redcarpet
 highlighter: pygments
-logo: false
+cover: true
+logo: http://gravatar.com/avatar/56229dfef94a5a06461a7861cad15fc3/?s=100&d=mm
 paginate: 15
 baseurl: /
 domain_name: 'http://dsalvagni.com.br'
