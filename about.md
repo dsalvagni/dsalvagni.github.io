@@ -11,18 +11,18 @@ I learned all by myself, as self-taught. However, nowadays I’m in the college 
 
 ![MCSD](/assets/images/cert.jpg)
 
-### Drop me a line
-<ul class="list-unstyled list-inline">
+#### You can reach me at 
+<ul class="list-unstyled no-link">
     <li>
-        <a href="http://www.twitter.com.br/danielsalvagni"><i class="fa fa-fw fa-twitter"></i></a>
+        <a href="http://www.twitter.com.br/danielsalvagni"><i class="fa fa-fw fa-twitter"></i> danielsalvagni</a>
     </li>
     <li>
-        <a href="https://br.linkedin.com/in/dsalvagni"><i class="fa fa-fw fa-linkedin"></i></a>
+        <a href="https://br.linkedin.com/in/dsalvagni"><i class="fa fa-fw fa-linkedin"></i> dsalvagni</a>
     </li>
     <li>
-        <a href="https://github.com/dsalvagni"><i class="fa fa-fw fa-github"></i></a>
+        <a href="https://github.com/dsalvagni"><i class="fa fa-fw fa-github"></i> dsalvagni</a>
     </li>
     <li>
-        <a href="mailto:danielsalvagni@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
+        <a href="mailto:danielsalvagni@gmail.com"><i class="fa fa-fw fa-envelope"></i> danielsalvagni@gmail.com</a>
     </li>
 </ul>
