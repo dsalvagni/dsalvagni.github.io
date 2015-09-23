@@ -34,7 +34,13 @@ O AngularJS já faz cache das _views_ depois de acessadas pela primeira vez. A i
 
 #### O que foi feito nessa atualização?
 
-Adicionei uma task no Grunt que usa o [grunt-angular-templates](https://www.npmjs.com/package/grunt-angular-templates) para concatenar todas as _views_ em um único arquivo de _resource_. Essa é uma solução opcional e não altera em nada o modo em que se desenvolve a aplicação usando o projeto. A diferença é que usando o $templateCache, nenhuma _view_ é gerada na versão de distribuição Para gerar uma versão de distribuição com o $templateCache, basta usar a flag _--templateCache_: [plain]grunt dist --templateCache[/plain] Para gerar usar em desenvolvimento, basta usar: [plain]grunt ngtemplates[/plain]
+Adicionei uma task no Grunt que usa o [grunt-angular-templates](https://www.npmjs.com/package/grunt-angular-templates) para concatenar todas as _views_ em um único arquivo de _resource_. Essa é uma solução opcional e não altera em nada o modo em que se desenvolve a aplicação usando o projeto. A diferença é que usando o $templateCache, nenhuma _view_ é gerada na versão de distribuição Para gerar uma versão de distribuição com o $templateCache, basta usar a flag _--templateCache_: 
+
+> grunt dist --templateCache
+
+Para gerar usar em desenvolvimento, basta usar: 
+
+> grunt ngtemplates
 
 * * *
 
