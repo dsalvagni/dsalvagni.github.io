@@ -1,0 +1,8 @@
+{% capture count_words %}
+    {{ page.content | number_of_words }}
+{% endcapture %}
+{% capture time_words %}
+    {{count_words | divided_by: 5}}
+{% endcapture %}
+
+<time class="post-time-to-read">{% if (time_words > 120) %}{{time_words | divided_by: 60}}  minutes {% else %} 1 minute {% endif  %} read</time>
