@@ -8,6 +8,32 @@
 	display:inline;
 }
 
+
+.list-unstyled {
+
+    margin:0;
+    padding:0;
+
+    li {
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+}
+ .no-link {
+
+        a {
+                text-decoration:none;
+            }
+        }
+
+.list-inline {
+
+    li {
+        display: inline-block;
+    }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"
