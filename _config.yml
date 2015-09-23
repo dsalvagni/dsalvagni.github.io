@@ -22,3 +22,6 @@ google_analytics: 'UA-38161905-1'
 # Details for the RSS feed generator
 url:            'http://dsalvagni.com.br'
 author:         'Daniel Salvagni'
+
+gems:
+  - jekyll-time-to-read
