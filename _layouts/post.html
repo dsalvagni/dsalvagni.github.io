@@ -1,7 +1,7 @@
 ---
 layout: default
-disqus: false
-archive: false
+disqus: dsalvagni
+archive: true
 post_class: post-template
 ---
 
@@ -23,6 +23,7 @@ post_class: post-template
                 {% if page.categories.size > 0 %} 
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }} 
                 {% endif %}
+                {% include reading-time.html %}
             </section>
         </header>
 
@@ -69,7 +70,7 @@ post_class: post-template
                 </figure>
                 <section class="author">
                     <!-- Author Name -->
-                    <h4> {{ site.author }} </h4>
+                    <a href="/about.html"><h4> {{ site.author }} </h4></a>
                     <!-- Author Bio -->
                     <p>
                         I’m a full-stack web developer. Started developing pages in 2001 and I’ve been working with web development since 2003.
@@ -83,6 +84,9 @@ post_class: post-template
                         </li>
                         <li>
                             <a href="https://github.com/dsalvagni"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:danielsalvagni@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
                         </li>
                     </ul>
                 </section>                

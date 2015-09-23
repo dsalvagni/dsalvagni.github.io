@@ -9,7 +9,7 @@ about: 'about.html'
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                    <img src="{{ site.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
@@ -53,7 +53,25 @@ about: 'about.html'
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
+            {% assign num_words = post.content | strip_html | number_of_words %}
+            {% assign minutes = num_words | divided_by: 200.0 %}
+            {% assign minutes_f = num_words | divided_by: 200.0 %}
+            {% assign minutes_i = num_words | divided_by: 200 %}
+            {% assign diff = minutes_f | minus: minutes_i %}
+            {% if diff >= 0.5 %}
+            {% assign minutes = minutes_i + 1 %}
+            {% else %}
+            {% assign minutes = minutes_i %}
+            {% endif %}
+
+            {% if minutes <= 1 %}
+            {% assign reading_time = '1' | append: ' minute read' %}
+            {% else %}
+            {% assign reading_time = minutes | append: ' minutes read' %}
+            {% endif %}
+
+            <time class="post-time-to-read">{{reading_time}}</time>
         </footer>
     </article>
 
