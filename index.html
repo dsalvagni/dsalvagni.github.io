@@ -53,7 +53,8 @@ about: 'about.html'
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
+            <time class="post-date">{{post.content | reading_time_as_i}} read</time>
         </footer>
     </article>
 
