@@ -20,8 +20,15 @@
         padding:0;
     }
 }
+ .no-link {
+
+        a {
+                text-decoration:none;
+            }
+        }
 
 .list-inline {
+
     li {
         display: inline-block;
     }
