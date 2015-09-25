@@ -14,7 +14,7 @@ post_class: post-template
 
 <main class="content" role="main">
 
-    <article class="post"> 
+    <article class="post">
 
         <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
@@ -83,19 +83,20 @@ post_class: post-template
 
             <!-- Share links section -->
             {% include share.html %}
-                
-                {% if page.archive %}
-                
-                <hr>
-                <section class="archive">
-                    <h5>Archive</h5>
-                    <ul>
-                        {% for post in site.posts %}
-                            <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
-                        {% endfor %}    
-                    </ul>
-                </section>
-                {% endif %}
+
+
+
+        {% if page.archive %}
+        <hr>
+        <section class="archive">
+            <h5>Archive</h5>
+            <ul>
+                {% for post in site.posts %}
+                    <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}    
+            </ul>
+        </section>
+        {% endif %}
             
             <!-- Disqus comments -->
             {% if page.disqus %}
