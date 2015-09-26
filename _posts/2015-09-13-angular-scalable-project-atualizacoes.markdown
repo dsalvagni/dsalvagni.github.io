@@ -4,7 +4,6 @@ title:  "angular-scalable-project - Atualizações"
 date:   2015-09-13 10:18:00
 permalink: angular-scalable-project-atualizacoes
 category: Front-end
-disqus: dsalvagni
 ---
 Tenho recebido algumas sugestões a respeito do [projeto](http://github.com/dsalvagni/angular-scalable-project) que divulguei recentemente. Algumas sugestões de melhoria eu compartilho como necessárias, outras nem tanto. Acabei de fazer uma atualização no projeto e vou listar o que recebi de sugestão e o que foi implementado - pouco, por enquanto.
 
