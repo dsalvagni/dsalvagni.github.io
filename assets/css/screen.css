@@ -64,7 +64,9 @@ sub, sup {
 }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
-img { border: 0; }
+img { border: 0; display: block;
+    max-width: 100%;
+    height: auto;}
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
 fieldset {
@@ -903,7 +905,9 @@ body:not(.post-template) .post-title {
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
 .post-content .full-img {
-    width: 126%;
+    display: block;
+    max-width: 100%;
+    height: auto;
     max-width: none;
     margin: 0 -13%;
 }
@@ -1639,11 +1643,11 @@ body:not(.post-template) .post-title {
     }
 
     .post-content .full-img {
-        width: auto;
-        width: calc(100% + 32px); /* expand with to image + margins */
+        display: block;
+        max-width: 100%;
+        height: auto;
         margin: 0 -16px; /* get rid of margins */
         min-width: 0;
-        max-width: 112%; /* fallback when calc doesn't work */
     }
 
     .post-meta {
