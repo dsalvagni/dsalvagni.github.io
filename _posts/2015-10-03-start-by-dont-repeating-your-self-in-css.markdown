@@ -87,7 +87,7 @@ Here's an approach using DRY principles.
 
 Notice that we are repeating the mixin all along the example and it is ok doing this way because we aren't repeating our CSS declarations. So, when a change is required we still have just one place to make the change, what makes this DRY approach effective.
 
-### DRY CSS with pure CSS
+### Abstracting with pure CSS
 We can refactor our CSS code to dry it out without using a CSS preprocessor, as well. One great example is for a collection of icons which are organized in a single image file and we use the CSS sprites approach to get them. 
 
 ##### Original code
@@ -109,7 +109,7 @@ How we use it on HTML.
 {% endhighlight %}
 
 
-##### Refatoring it
+##### Refactoring it
 {% highlight css%}
 .icon {
     background-image: url('../img/icon-sprites.png');
