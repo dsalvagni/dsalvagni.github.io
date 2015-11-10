@@ -4,10 +4,12 @@ title:  "Encerrei janeiro como MCSD Web Applications"
 date:   2015-02-01 10:18:00
 permalink: encerrei-janeiro-como-mcsd-web-applications
 categories: Microsoft
+cover: /assets/images/posts/cert/MCSD-700x494.jpg
 ---
 
-![Certificação Microsoft - Daniel Salvagni](/assets/images/posts/cert/MCSD-700x494.jpg)
 Encerrei o mês de janeiro de 2015 com o título de [_MCSD: Web Applications_](https://www.microsoft.com/learning/pt-br/mcsd-web-apps-certification.aspx "Irá abrir em uma nova janela"), o que me qualifica para a posição de desenvolvedor web ou administrador web, com o reconhecimento da minha especialização em criar e implantar serviços e aplicativos modernos com a tecnologia Microsoft.
+
+![Certificação Microsoft - Daniel Salvagni](/assets/images/posts/cert/MCSD-700x494.jpg)
 
 Iniciei essa série de certificações com a prova 480, [_Programming in HTML5 with JavaScript and CSS3_](https://www.microsoft.com/learning/pt-br/exam-70-480.aspx "Irá abrir em uma nova janela"), quando a Microsoft disponibilizou um voucher que permitia realizar o exame gratuitamente. Isso foi em 2013 e coincidiu de eu estar estudando esse assunto. Essa foi minha primeira certificação.
 

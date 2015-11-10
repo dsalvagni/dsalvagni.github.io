@@ -4,10 +4,12 @@ title:  "AngularJS para aplicações de larga escala"
 date:   2015-06-15 10:18:00
 permalink: angularjs-para-aplicacoes-de-larga-escala
 category: Front-end
+cover: /assets/images/posts/template-project.png
 ---
 
-![AngularJS para aplicações de larga escala](/assets/images/posts/template-project.png)
 Quando comecei a estudar o AngularJS e a procurar exemplos de uso e aplicações, sempre me deparava com aplicações simples, sem muitas implementações. O que é bom para pegar o conceito mas não ajuda muito quando é necessário estruturar uma aplicação que irá crescer significativamente. Assim, compartilho a minha estrutura de projetos para aplicações de larga escala, tornando modular – como deve ser – e de fácil manutenção.
+
+![AngularJS para aplicações de larga escala](/assets/images/posts/template-project.png)
 
 ## 1\. Introdução
 

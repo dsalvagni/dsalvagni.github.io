@@ -4,9 +4,9 @@ title:  "Magento – Módulo de Lembrete de Aniversário"
 date:   2015-03-03 10:18:00
 permalink: magento-modulo-de-lembrete-de-aniversario
 category: Magento
+cover: /assets/images/posts/birthday/cupcake.jpg
 ---
 
-![Magento – Módulo de Lembrete de Aniversário](/assets/images/posts/birthday/cupcake.jpg)
 Recentemente, quando perdi o conteúdo deste blog, ficou pra trás o módulo de lembrete de aniversário. Para quem acompanhou, esse módulo é uma ramificação de outro módulo que tenho, que é para envio de e-mails para os clientes com carrinho abandonado.
 
 ## O que é?

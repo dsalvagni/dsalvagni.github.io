@@ -4,9 +4,9 @@ title:  "Como eu projeto uma aplicação em ZF2"
 date:   2015-02-10 10:18:00
 permalink: como-eu-projeto-uma-aplicacao-em-zf2
 category: "Zend Framework 2"
+cover: /assets/images/posts/zf2/elephant.jpg
 ---
 
-![Como eu projeto uma aplicação em ZF2](/assets/images/posts/zf2/elephant.jpg)
 Muita coisa mudou em relação a como eu projeto uma aplicação com o Zf2 desde que comecei a mexer com o framework. Percebo uma grande diferença nos projetos de quando iniciei para os projetos de hoje e que isso tem uma relação direta com a forma que aprendi e/ou estudei. Acredito que hoje eu esteja próximo de um modelo de aplicação ideal para a minha forma de trabalho.
 
 É válido compartilhar esta experiência para que quem necessite de informação a respeito possa consultar e para que quem tenha mais informação a respeito possa contribuir. A mudança que percebi é inicia na troca de um processador de texto para uma IDE mais completa.
