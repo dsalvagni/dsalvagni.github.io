@@ -387,37 +387,37 @@ h1 {
   display: inline-block;
 }
 @media (min-width: 992px) {
-  .form--row {
+  .form .form--row {
     overflow: hidden;
     margin: 10px 0;
   }
-  .form--row span {
+  .form .form--row span {
     display: block;
     overflow: hidden;
     padding: 0 5px;
   }
-  .form--row .form--value,
-  .form--row .form--label {
+  .form .form--row .form--value,
+  .form .form--row .form--label {
     font-size: 22px;
     margin: 0;
     line-height: 38px;
   }
-  .form--row .form--label {
+  .form .form--row .form--label {
     float: left;
     font-weight: normal;
   }
-  .form--row .form--label small {
+  .form .form--row .form--label small {
     font-size: 14px;
     display: block;
   }
-  .form--row .form--label.with-sub {
+  .form .form--row .form--label.with-sub {
     line-height: 100%;
   }
-  .form--row .form--value {
+  .form .form--row .form--value {
     font-weight: bold;
   }
-  .form--row input,
-  .form--row select {
+  .form .form--row input,
+  .form .form--row select {
     width: 100%;
     border: none;
     background: transparent;
@@ -426,7 +426,17 @@ h1 {
     border-bottom-width: 2px;
     border-bottom-style: dashed;
   }
-  .form--radio .form--radio--option {
+  .form .form--row select {
+    padding-right: 20px;
+    -webkit-appearance: none; /*Removes default chrome and safari style*/
+    -moz-appearance: none; /* Removes Default Firefox style*/
+    background-image: url("../img/form/arrow_red.png"); /*Adds background-image*/
+    background-repeat: no-repeat;
+    background-position: right center; /*Position of the background-image*/
+    text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: ""; /*Removes default arrow from firefox*/
+  }
+  .form .form--radio .form--radio--option {
     margin: 0;
   }
 }
