@@ -44,11 +44,11 @@ $(function () {
      *    </ul>
      *
      *
-    $('.plan--options a').on('click', function () {
+     */
+    $('.plan--options a:not([href$="html"])').on('click', function () {
         var elm = $(this);
         $('#plan-container').removeClass('p m g').addClass(elm.data('option'));
     });
-     */
 
     /**
      *  Alterar o ponto de coleta
