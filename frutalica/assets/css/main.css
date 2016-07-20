@@ -238,6 +238,17 @@ h1 {
     display: block;
   }
 }
+.my-account .text-right {
+  text-align: center;
+}
+.my-account .primary-button,
+.my-account .primary-action-button {
+  margin: 10px 0;
+}
+.my-account .primary-button.margin-right-20,
+.my-account .primary-action-button.margin-right-20 {
+  margin-right: 0 !important;
+}
 .my-account .my-account--title {
   color: #fff;
   background: #ff6331;
@@ -272,6 +283,8 @@ h1 {
   line-height: 60px;
   font-weight: bold;
   font-family: 'PT Sans', Helvetica, sans-serif;
+  cursor: pointer;
+  color: #ff6331;
 }
 .my-account .monthly hr {
   border-width: 2px;
@@ -279,6 +292,13 @@ h1 {
   border-color: #ff6331;
 }
 @media (min-width: 992px) {
+  .my-account .text-right {
+    text-align: right;
+  }
+  .my-account .primary-button.margin-right-20,
+  .my-account .primary-action-button.margin-right-20 {
+    margin-right: 20px !important;
+  }
   .my-account .my-account--title {
     margin-top: -28px;
   }
@@ -379,7 +399,7 @@ h1 {
 .form--radio .form--radio--label {
   cursor: pointer;
   display: block;
-  font-size: 24px;
+  font-size: 23px;
 }
 .form--radio .form--radio--label.inline {
   margin-left: 6px;
@@ -549,6 +569,7 @@ h1 {
   }
 }
 .frutalica .navbar {
+  font-family: 'Francois One', sans-serif;
   min-height: 50px;
   border: none;
   border-bottom: 3px solid #ff6331;
@@ -591,7 +612,6 @@ h1 {
 .frutalica .navbar .main-menu .main-menu--item .main-menu--item--link {
   color: #00b68f;
   font-size: 20px;
-  font-weight: bold;
 }
 .frutalica .navbar .sign-up {
   display: inline-block;
@@ -613,6 +633,13 @@ h1 {
 @media (min-width: 992px) {
   .frutalica .navbar {
     min-height: 106px;
+  }
+  .frutalica .navbar .main-menu .main-menu--item {
+    display: inline-block;
+    padding: 40px 30px 0 30px;
+  }
+  .frutalica .navbar .main-menu .main-menu--item .main-menu--item--link {
+    color: #00b68f;
   }
 }
 @media (max-width: 990px) {

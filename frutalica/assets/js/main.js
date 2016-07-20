@@ -2,11 +2,53 @@ $(function () {
 
     /**
      *  Alterar o plano selecionado
-     */
+     *  Caso seja utilizado uma unica pagina para exibir os planos,
+     *  pode ser descomentado esse código. Ele vai habilitar/desabilitar
+     *  conteúdos dos planos conforme a opção selecionada.
+     *
+     *  Para funcionar, é preciso incluir uma classe para cada tipo de plano na
+     *  tela dos planos (p, m, g):
+     *
+     *  São elas:
+     *
+     *  Descrição do plano
+     *  <div class="plan--description">
+     *     <div class="plan--description--p"></div>
+     *     <div class="plan--description--m"></div>
+     *     <div class="plan--description--g"></div>
+     *  </div>
+     *
+     *  Preço:
+     *
+     *  <h1 class="plan--price">
+     *    <span class="p"><small>R$</small>190,00<small>/MÊS</small></span>
+     *    <span class="m"><small>R$</small>190,00<small>/MÊS</small></span>
+     *    <span class="g"><small>R$</small>190,00<small>/MÊS</small></span>
+     *  </h1>
+     *
+     *  Título
+     *  <span class="plan--title">
+     *       <img src="assets/img/plans/title/small.png" class="p img-responsive"/>
+     *       <img src="assets/img/plans/title/medium.png" class="m img-responsive"/>
+     *       <img src="assets/img/plans/title/big.png" class="g img-responsive"/>
+     *  </span>
+     *
+     *  Seleção de opções deve ficar assim:
+     *  <ul class="list-unstyled list-inline plan--options">
+     *    <li><a href="javascript:;" data-option="p"><span
+     *    class="plan--option plan--option--p"></span></a></li>
+     *    <li><a href="javascript:;" data-option="m"><span
+     *    class="plan--option plan--option--m"></span></a></li>
+     *    <li><a href="javascript:;" data-option="g"><span
+     *    class="plan--option plan--option--g"></span></a></li>
+     *    </ul>
+     *
+     *
     $('.plan--options a').on('click', function () {
         var elm = $(this);
         $('#plan-container').removeClass('p m g').addClass(elm.data('option'));
     });
+     */
 
     /**
      *  Alterar o ponto de coleta
