@@ -1,0 +1,572 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=500">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Francois+One|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body class="frutalica" id="top">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-default"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="hidden-lg hidden-md">
+                <span class="logo-header-mini"><span class="sr-only">Frutaliça</span></span>
+            </a>
+        </div>
+        <div class="text-center main-menu no-gutters hidden-sm hidden-xs">
+            <div class="main-menu--left">
+                <ul class="list-unstyled list-inline">
+                    <li class="main-menu--item">
+                        <a href="minha-conta.html" class="main-menu--item--link">MINHA CONTA</a>
+                    </li>
+                    <li class="main-menu--item">
+                        <a href="index.html#planos" class="main-menu--item--link">PLANOS</a>
+                    </li>
+                    <li class="main-menu--item">
+                        <a href="index.html#faq" class="main-menu--item--link">COMO FUNCIONA</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-menu--logo">
+                <a href="index.html">
+                    <span class="logo-header-default"><span class="sr-only">Frutaliça</span></span>
+                </a>
+            </div>
+            <div class="main-menu--right">
+                <ul class="list-unstyled list-inline">
+                    <li class="main-menu--item">
+                        <a href="sobre.html" class="main-menu--item--link">SOBRE NÓS</a>
+                    </li>
+                    <li class="main-menu--item">
+                        <a href="#" class="main-menu--item--link">NOSSO BLOG</a>
+                    </li>
+                    <li class="main-menu--item">
+                        <a href="#planos" class="sign-up">ASSINAR</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse hidden-md hidden-lg" id="menu-default">
+            <ul class="nav navbar-nav">
+                <li><a href="minha-conta.html">MINHA CONTA</a></li>
+                <li><a href="#planos">PLANOS</a></li>
+                <li><a href="#faq">COMO FUNCIONA</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li><a href="#">NOSSO BLOG</a></li>
+                <li><a href="#planos">ASSINE</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<!--PLANO-->
+<!-- A CLASSE g DETERMINA O ESTILO DO PLANO-->
+<div class="container plans basket--bg g" id="plan-container">
+    <div class="plan">
+        <div class="row">
+            <div class="col-md-6 f-right">
+                <!--SELEÇÃO DE TAMANHO DA CESTA-->
+                <div class="plan--basket">
+                    <img src="assets/img/plans/basket.png" class="img-responsive center-block"/>
+
+                    <ul class="list-unstyled list-inline plan--options">
+                        <li><a href="plans-p.html" data-option="p"><span
+                            class="plan--option plan--option--p"></span></a></li>
+                        <li><a href="plans-m.html" data-option="m"><span
+                            class="plan--option plan--option--m"></span></a></li>
+                        <li><a href="plans-g.html" data-option="g"><span
+                            class="plan--option plan--option--g"></span></a></li>
+                    </ul>
+                </div>
+                <!--/SELEÇÃO DE TAMANHO DA CESTA-->
+            </div>
+            <div class="col-md-6">
+                <!--TÍTULO E PREÇO-->
+                <span class="plan--title">
+                    <img src="assets/img/plans/title/big.png" class="g img-responsive"/>
+                </span>
+
+                <h1 class="plan--price">
+                    <span class="g"><small>R$</small>190,00<small>/MÊS</small></span>
+                </h1>
+                <!--/TÍTULO E PREÇO-->
+                <!--DESCRIÇÕES-->
+                <div class="plan--description">
+                    <div class="plan--description--g">
+                        GGG Para este campo será desenvolvido um
+                        texto descritivo com o objetivo de explicar
+                        qual a diferênça entre os tamanhos de
+                        cesta existentes. Este conteúdo terá
+                        também a função descrever a variedade
+                        de produtos existentes em cada cesta e
+                        reforçar a logistica de funcionamento.
+                    </div>
+                    <a href="javascript:;" id="start-checkout" class="call-to-action--button">Assine agora.</a>
+                </div>
+                <!--/DESCRIÇÕES-->
+                <!--FORMULÁRIO DE CADASTRO BÁSICO-->
+                <div class="form hide checkout-info">
+                    <h1>INFORME SEU E-MAIL</h1>
+
+                    <div class="form--row">
+                        <label class="form--label">
+                            E-mail:
+                        </label>
+                        <span><input type="text" name="email"/></span>
+                    </div>
+                    <div class="form--row">
+                        <a href="javascript:;" class="btn--outline pull-right">Calcular</a>
+                        <label class="form--label">
+                            CEP:
+                        </label>
+                        <span><input type="text" name="cep"/></span>
+                    </div>
+                    <div class="form--row">
+                        <label class="form--label">
+                            Cupom de desconto:
+                        </label>
+                        <span><input type="text" name="coupon"/></span>
+                    </div>
+                    <div class="form--row">
+                        <label class="form--label">
+                            Entrega:
+                        </label>
+                        <span><select name="delivery" id="delivery-type">
+                            <option data-option="receber" value="Receber em casa">Receber em casa</option>
+                            <option data-option="retirar" value="Retirar no ponto de coleta">Retirar no ponto de coleta</option>
+                        </select></span>
+                    </div>
+                    <div class="form--row">
+                        <ul class="list-inline">
+                            <li>
+                                <label class="form--label">Frete:</label>
+                                <span class="form--value"> R$16,10</span>
+                            </li>
+                            <li>
+                                <label class="form--label">Desconto:</label>
+                                <span class="form--value"> -R$0,00</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form--row">
+                        <label class="form--label">Total:</label>
+                        <span class="form--value"> R$116,10</span>
+                    </div>
+                </div>
+                <!--/FORMULÁRIO DE CADASTRO BÁSICO-->
+            </div>
+        </div>
+    </div>
+    <!--DADOS PESSOAIS E DE ENDEREÇO-->
+    <div class="personal-data hide checkout-info">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form">
+                    <h1>PREENCHA SEUS DADOS</h1>
+
+                    <div class="form--row">
+                        <label class="form--label">
+                            Nome:
+                        </label>
+                        <span><input type="text" name="firstname"/></span>
+                    </div>
+                    <div class="form--row">
+                        <label class="form--label">
+                            Sobrenome:
+                        </label>
+                        <span><input type="text" name="lastname"/></span>
+                    </div>
+                    <div class="form--row">
+                        <span class="pull-right">
+                            <select name="gender" id="">
+                                <option value=""></option>
+                                <option value="Feminino">Feminino</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </span>
+                        <label class="form--label pull-right">
+                            Gênero:
+                        </label>
+                        <label class="form--label">
+                            Idade:
+                        </label>
+                        <span><input type="text" name="age"/></span>
+                    </div>
+                    <div class="form--row">
+                        <span class="pull-right"><input type="password" name="confirmPassword"/></span>
+                        <label class="form--label pull-right">
+                            Confirmar:
+                        </label>
+                        <label class="form--label">
+                            Senha:
+                        </label>
+                        <span><input type="password" name="password"/></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form">
+                    <h1>PREENCHA SEU ENDEREÇO</h1>
+
+                    <div class="form--row">
+                        <label class="form--label">
+                            Rua:
+                        </label>
+                        <span><input type="text" name="address"/></span>
+                    </div>
+                    <div class="form--row">
+                        <span class="pull-right"><input type="text" name="complement"/></span>
+                        <label class="form--label pull-right">
+                            Complemento:
+                        </label>
+                        <label class="form--label">
+                            Número:
+                        </label>
+                        <span><input type="text" name="number"/></span>
+                    </div>
+                    <div class="form--row">
+                        <span class="pull-right"><input type="text" name="telephone"/></span>
+                        <label class="form--label pull-right">
+                            Fone:
+                        </label>
+                        <label class="form--label">
+                            Bairro:
+                        </label>
+                        <span><input type="text" name="neighborhood"/></span>
+                    </div>
+                    <div class="form--row">
+                        <span class="pull-right"><select name="state">
+                            <option value=""></option>
+                            <option value="Estado 1">Estado 1</option>
+                            <option value="Estado 2">Estado 2</option>
+                        </select></span>
+                        <label class="form--label pull-right">
+                            Estado:
+                        </label>
+                        <label class="form--label">
+                            Cidade:
+                        </label>
+                        <span><select name="city">
+                            <option value=""></option>
+                            <option value="Cidade 1">Cidade 1</option>
+                            <option value="Cidade 2">Cidade 2</option>
+                        </select></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+    <!--/DADOS PESSOAIS E DE ENDEREÇO-->
+    <!--HORÁRIO DE ENTREGA-->
+    <div class="row hide checkout-info" id="delivery-method-receber">
+        <div class="col-md-12">
+            <h1 class="text-center">
+                SELECIONE A FAIXA HORÁRIA QUE VOCÊ <br/> DESEJA RECEBER A SUA CAIXA*
+            </h1>
+
+            <div class="row delivery-time">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row no-gutters form--radio">
+                        <div class="col-md-1 relative hidden-sm hidden-xs">
+                            <div class="delivery-time--line"></div>
+                        </div>
+                        <div class="col-md-2 relative text-center">
+                            <div class="delivery-time--line"></div>
+                            <label class="form--radio--option">
+                                <span class="form--radio--input checked">
+                                    <input name="delivery-time" type="radio" value="06h00-08h00"/>
+                                </span>
+                                <span class="form--radio--label">
+                                    Entre <strong>06h00</strong><br> e <strong>08h00</strong>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="col-md-3 relative text-center">
+                            <div class="delivery-time--line"></div>
+                            <label class="form--radio--option">
+                                <span class="form--radio--input">
+                                    <input name="delivery-time" type="radio" value="09h00-11h00"/>
+                                </span>
+                                <span class="form--radio--label">
+                                    Entre <strong>09h00</strong><br> e <strong>11h00</strong>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="col-md-3 relative text-center">
+                            <div class="delivery-time--line"></div>
+
+                            <label class="form--radio--option">
+                                <span class="form--radio--input">
+                                <input name="delivery-time" type="radio" value="13h00-15h00"/>
+                                </span>
+                                <span class="form--radio--label">
+                                    Entre <strong>13h00</strong><br> e <strong>15h00</strong>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="col-md-2 relative text-center">
+                            <div class="delivery-time--line"></div>
+
+                            <label class="form--radio--option">
+                            <span class="form--radio--input">
+                                <input name="delivery-time" type="radio" value="16h00-18h00"/>
+                            </span>
+                                <span class="form--radio--label">
+                                    Entre <strong>16h00</strong><br> e <strong>18h00</strong>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="col-md-1 relative  hidden-sm hidden-xs">
+                            <div class="delivery-time--line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="font-md text-center">
+                *Será preciso ter sempre alguém no local de entrega para receber a sua caixa.
+            </p>
+        </div>
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+    <!--/HORÁRIO DE ENTREGA-->
+    <!--PONTO DE COLETA-->
+    <div class="row hide" id="delivery-method-retirar">
+        <div class="col-lg-6">
+            <h1>
+                SELECIONE O PONTO DE COLETA ONDE VOCÊ DESEJA RECEBER SUA CESTA
+            </h1>
+            <div class="form">
+                <div class="form--row">
+                    <label class="form--label">
+                        Ponto de Coleta:
+                    </label>
+                    <span>
+                        <select name="point" id="selected-point">
+                            <option data-option="0" value="ponto 1">Offcina Café Coworking</option>
+                            <option data-option="1" value="ponto 2">Macchu Pichu Blumenau</option>
+                        </select>
+                    </span>
+                </div>
+                <p class="obs-text" id="point-address">
+                    R. Iguaçu, 209 - Itoupava Seca, Blumenau - SC, 89030-030
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div id="map"></div>
+        </div>
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+    <!--/PONTO DE COLETA-->
+    <!--FORMA DE PAGAMENTO-->
+    <div class="row hide checkout-info">
+        <div class="col-md-12">
+            <h1 class="text-center">
+                ESCOLHA O MEIO DE PAGAMENTO
+            </h1>
+
+            <ul class="list-inline form--radio text-center payment-method">
+                <li class="margin-right-20">
+                    <label class="form--radio--option">
+                        <span class="form--radio--input checked">
+                            <input name="payment-method" type="radio" value="CC" data-option="CC"/>
+                        </span>
+                        <span class="form--radio--label inline">
+                            Cartão de Crédito
+                        </span>
+                    </label>
+                </li>
+                <li>
+                    <label class="form--radio--option">
+                        <span class="form--radio--input">
+                            <input name="payment-method" type="radio" value="Boleto" data-option="Boleto"/>
+                        </span>
+                        <span class="form--radio--label inline">
+                            Boleto Bancário
+                        </span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+    <!--/FORMA DE PAGAMENTO-->
+    <!--BOLETO-->
+    <div class="row hide" id="payment-method-boleto">
+        <div class="col-md-12 text-center">
+            <h1>CONFIRME SEU PEDIDO</h1>
+            <a href="confirma-boleto.html" class="confirm--button">
+                Confirmar Compra
+            </a>
+        </div>
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+    <!--/BOLETO-->
+    <!--CARTÃO DE CRÉDITO-->
+    <div class="row hide checkout-info" id="payment-method-cc">
+        <div class="col-lg-6">
+            <div class="form no-margin-top">
+                <h1>DADOS DO CARTÃO</h1>
+
+                <div class="form--row">
+                    <label class="form--label with-sub">
+                        Nome:
+                        <small>Como está no cartão</small>
+                    </label>
+                    <span><input type="text" name="cc_name"/></span>
+                </div>
+                <div class="form--row">
+                    <label class="form--label">
+                        Número do cartão:
+                    </label>
+                    <span><input type="text" name="cc_number"/></span>
+                </div>
+                <div class="form--row">
+                    <span class="pull-right"><input type="text" name="cvv"/></span>
+                    <label class="form--label pull-right">
+                        CVV:
+                    </label>
+                    <label class="form--label">
+                        Validade:
+                    </label>
+                    <span><input type="text" name="expiryDate"/></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 text-center">
+            <img src="assets/img/credit-card.png" class="img-responsive center-block"/>
+            <br><br>
+            <a href="confirma-cartao.html" class="confirm--button">
+                Confirmar Compra
+            </a>
+        </div>
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+    <!--/CARTÃO DE CRÉDITO-->
+    <!--TABELA-->
+    <div class="row table-info">
+        <div class="col-md-12">
+            <h1 class="text-center">ESCOLHA A CESTA IDEAL PARA VOCÊ!</h1>
+
+            <div class="table-responsive">
+                <table class="plan-table">
+                    <thead>
+                    <tr>
+                        <th>PLANOS</th>
+                        <th>FRUTAS</th>
+                        <th>LEGUMES</th>
+                        <th>HORTALIÇAS</th>
+                        <th>TOTAL</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>P</td>
+                        <td>02</td>
+                        <td>04</td>
+                        <td>03</td>
+                        <td>09</td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td>03</td>
+                        <td>05</td>
+                        <td>04</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>G</td>
+                        <td>04</td>
+                        <td>06</td>
+                        <td>05</td>
+                        <td>15</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="font-md text-center plan-table-description">Um texto descritivo reforçando a venda e a importância
+                da tabela demonstrativa. <br/>
+                Provavelmente este texto será mais extenso e diagramado em duas linhas.</p>
+        </div>
+    </div>
+    <!--/TABELA-->
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-6">
+                <h2>CONTATO</h2>
+
+                <p>R. João Pessoa, No 1859. <br/>
+                    Velha. Blumenau, SC.<br/>
+                    <a href="tel:+55 47 3039.2756">+ 55 47 3039.2756</a><br/>
+                    <a href="mailto:contato@frutalica.com.br">contato@frutalica.com.br</a></p>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <h2>REDES SOCIAIS</h2>
+                <ul class="list-unstyled list-inline">
+                    <li>
+                        <a href=""><img src="assets/img/logo-fb.png"/></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/logo-twitter.png"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="col-xs-6">
+                    <img src="assets/img/certified.png" class="certified img-responsive center-block"/>
+                </div>
+                <div class="col-xs-6">
+                    <img src="assets/img/logo-footer.png" class="logo img-responsive center-block"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/maps.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCANy4-Y9--HveyLcFm9yE9bVDgbUHpj0I&signed_in=true"></script>
+<script src="assets/js/main.js"></script>
+
+
+
+</body>
+</html>
