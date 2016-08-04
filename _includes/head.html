@@ -34,8 +34,10 @@
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
 {% if page.image %}
-  <meta content="/img/srcset/{{ page.image }}" property="og:image">
-{% endif %}
+  <meta content="{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="{{ post.image }}" property="og:image">
+{% endif post.image %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
