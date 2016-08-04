@@ -3,6 +3,7 @@ layout: post
 title:  "Front-end architecture is everything but simple"
 date:   2015-11-09 20:00:00
 cover: /assets/images/posts/front-end-arc/presentation.jpg
+image: /assets/images/posts/front-end-arc/presentation.jpg
 categories: Front-end
 ---
 Recently I was invited to present a talk about front-end development at a company event of my current work, which I did a couple of weeks ago. I was pretty nervous about it mostly for two reasons: a) I never did a presentation to a large audience like this(about two hundred); b) I thought that I needed bring the current most relevant content to that presentation. While I was making the presentation slides I realized that the second reason was about the complexity of front-end development nowadays.
