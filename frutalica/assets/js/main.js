@@ -75,6 +75,17 @@ $(function () {
         }
     }
 
+    $('[name="accept-terms"]').on('change', checkAcceptedTerms)
+
+    function checkAcceptedTerms() {
+        var e = $(this);
+        if(e.is(':checked')) {
+            $('.confirm--button').removeClass('hide');
+        } else {
+            $('.confirm--button').addClass('hide');
+        }
+    }
+
     /**
      * Seleciona a forma de entrega na tela de planos
      */
@@ -119,24 +130,24 @@ $(function () {
     $('.form--radio .form--radio--option').on('click', function () {
         var elm = $(this),
             parent = elm.closest('.form--radio');
-        parent.find('.form--radio--input.checked input[type=radio]').prop('checked', false);
+        parent.find('.form--radio--input.checked input').prop('checked', false);
         parent.find('.form--radio--input.checked').removeClass('checked');
         elm.find('.form--radio--input').addClass('checked');
-        elm.find('.form--radio--input.checked input[type=radio]').prop('checked', true);
+        elm.find('.form--radio--input.checked input').prop('checked', true);
     });
 
     /**
      * Ativar troca de slides pelo scroll no FAQ
+     * $('#faq-carousel .item .container').bind('mousewheel', function (e) {
+     *       e.preventDefault();
+     *      if (e.originalEvent.wheelDelta / 120 > 0) {
+     *           $('#faq-carousel').carousel('prev');
+     *       }
+     *       else {
+     *           $('#faq-carousel').carousel('next');
+     *       }
+     *   });
      */
-    $('#faq-carousel .item .container').bind('mousewheel', function (e) {
-        e.preventDefault();
-        if (e.originalEvent.wheelDelta / 120 > 0) {
-            $('#faq-carousel').carousel('prev');
-        }
-        else {
-            $('#faq-carousel').carousel('next');
-        }
-    });
 
     /**
      * Ativar smooth scroll

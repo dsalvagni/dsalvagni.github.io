@@ -33,6 +33,9 @@ row.no-gutters {
 .margin-bottom-50 {
   margin-bottom: 50px !important;
 }
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
 .primary-button {
   border: 0;
   display: inline-block;
@@ -406,6 +409,10 @@ h1 {
   vertical-align: middle;
   display: inline-block;
 }
+.form--radio .form--radio--label a {
+  color: inherit;
+  text-decoration: underline;
+}
 @media (min-width: 992px) {
   .form .form--row {
     overflow: hidden;
@@ -543,13 +550,13 @@ h1 {
   font-size: 32px;
 }
 .options .option-p {
-  background-image: url("../img/options/p/bg.jpg");
+  background-image: url("../img/options/p/bg.png");
 }
 .options .option-m {
-  background-image: url("../img/options/m/bg.jpg");
+  background-image: url("../img/options/m/bg.png");
 }
 .options .option-g {
-  background-image: url("../img/options/g/bg.jpg");
+  background-image: url("../img/options/g/bg.png");
 }
 @media (min-width: 992px) {
   .frutalica .options .option {
@@ -695,7 +702,7 @@ h1 {
 }
 @media (min-width: 992px) {
   .call-to-action .call-to-action--button {
-    margin-top: 110px;
+    margin-top: 40px;
   }
   .call-to-action .call-to-action--title {
     margin-top: 75px;
@@ -735,19 +742,24 @@ h1 {
   display: none;
 }
 .plans .plan .plan--price {
+  margin: 15px 0;
+  font-size: 24px;
   vertical-align: middle;
-  display: inline-block;
-  font-family: 'Francois One', sans-serif;
+  display: block;
   width: auto;
-  font-weight: normal;
+  font-weight: 300;
 }
 .plans .plan .plan--price .p,
 .plans .plan .plan--price .m,
 .plans .plan .plan--price .g {
   display: none;
 }
-.plans .plan .plan--price small {
-  font-size: 24px;
+.plans .plan .plan--price .price {
+  font-family: 'Francois One', sans-serif;
+  font-size: 41px;
+}
+.plans .plan .plan--price .price small {
+  font-size: 32px;
 }
 .plans .plan .plan--description {
   padding: 0;
@@ -1019,9 +1031,6 @@ h1 {
   .plans .plan .plan--description {
     padding: 0 60px 0 20px;
   }
-  .plans .plan .plan--basket img {
-    margin-top: 40px;
-  }
 }
 .about-us .about-us--featured {
   margin: 50px 0;
@@ -1057,4 +1066,14 @@ h1 {
 .footer .certified,
 .footer .logo {
   margin-top: 80px;
+}
+.footer .store-links {
+  margin: 20px 0;
+}
+.footer .store-links li {
+  margin: 5px 0;
+}
+.footer .store-links li a {
+  color: #ffcf46;
+  text-decoration: underline;
 }
