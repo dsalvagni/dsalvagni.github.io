@@ -36,6 +36,9 @@ row.no-gutters {
 .no-margin-bottom {
   margin-bottom: 0 !important;
 }
+.reset-line-height {
+  line-height: 1;
+}
 .primary-button {
   border: 0;
   display: inline-block;
