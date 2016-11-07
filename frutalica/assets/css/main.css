@@ -39,6 +39,9 @@ row.no-gutters {
 .reset-line-height {
   line-height: 1;
 }
+.bold {
+  font-weight: 900;
+}
 .primary-button {
   border: 0;
   display: inline-block;
@@ -56,6 +59,11 @@ row.no-gutters {
 .primary-button.highlight {
   color: #ffcf46;
 }
+.primary-button.small {
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 22px;
+}
 .primary-button:hover,
 .primary-button:focus {
   color: #fff;
@@ -66,11 +74,13 @@ row.no-gutters {
 .primary-button:focus.highlight {
   color: #ffcf46;
 }
+a.primary-action-button.outline:hover {
+  color: #fff;
+  background: #ff6331;
+}
 .primary-action-button {
   border: 0;
   display: inline-block;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
   border-radius: 30px;
   background-color: #ff6331;
   text-align: center;
@@ -80,8 +90,22 @@ row.no-gutters {
   padding: 0 40px;
   font-size: 30px;
 }
+.primary-action-button.small {
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 22px;
+}
 .primary-action-button.highlight {
   color: #ffcf46;
+}
+.primary-action-button.outline {
+  color: #ff6331;
+  border: 2px solid #ff6331;
+  background: transparent;
+}
+.primary-action-button.outline:hover {
+  color: #ff6331;
+  background: transparent;
 }
 .primary-action-button:hover,
 .primary-action-button:focus {
@@ -123,6 +147,46 @@ row.no-gutters {
   .f-right {
     float: right !important;
   }
+}
+.btn-option {
+  display: inline-block;
+  line-height: 32px;
+  border: 2px solid #00b68f;
+  color: #00b68f;
+  font-size: 16px;
+  padding: 0 14px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.btn-option:hover,
+.btn-option:focus {
+  text-decoration: none;
+  color: #00b68f;
+}
+.btn-option.btn-option--active {
+  color: #fff;
+  background-color: #00b68f;
+}
+.btn-outline-white {
+  display: inline-block;
+  line-height: 38px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 16px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.btn-outline-white:hover,
+.btn-outline-white:focus {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-outline-white.btn-option--active {
+  color: #fff;
+  background-color: #fff;
 }
 .frutalica .main-carousel .carousel-indicators li {
   border-color: #ff6331;
@@ -244,6 +308,62 @@ h1 {
     display: block;
   }
 }
+.my-account .month-detail .row {
+  color: #ff6331;
+  background-color: #d1d3d4;
+}
+.my-account .month-detail .row.even,
+.my-account .month-detail .row:nth-child(even) {
+  background-color: transparent;
+}
+.my-account .month-detail .detail {
+  display: none;
+}
+.my-account .month-detail .month-detail-header {
+  padding: 20px 0;
+}
+.my-account .month-detail h4 {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.my-account .month-detail strong {
+  padding-left: 20px;
+}
+.my-account .month-detail .row {
+  font-size: 18px;
+}
+.my-account .month-detail .row [class^="col-md"] {
+  line-height: 60px;
+}
+.my-account .months {
+  margin: 50px 0;
+}
+.my-account .months a {
+  display: block;
+  margin: 30px 0;
+}
+.my-account .months .primary-button,
+.my-account .months .primary-button:hover {
+  color: #ffcf46;
+}
+.my-account .months .primary-button.primary-button-active {
+  color: #ff6331;
+  background-color: #ffcf46;
+  border-color: #ffcf46;
+}
+.my-account .months .primary-button.primary-button-active:hover {
+  color: #ff6331;
+  background-color: #ffcb36;
+}
+.my-account .months primary-button.primary-button-inactive {
+  color: #ff6331;
+  background-color: transparent;
+  border-color: #ff6331;
+}
+.my-account .months primary-button.primary-button-inactive:hover {
+  color: #ff6331;
+  background-color: transparent;
+}
 .my-account .text-right {
   text-align: center;
 }
@@ -264,8 +384,22 @@ h1 {
 .my-account .my-account--options {
   text-align: center;
 }
+.my-account .my-account--options .primary-action-button {
+  display: block;
+  background: transparent;
+  color: #ff6331;
+  border: 2px solid #ff6331;
+  line-height: 50px;
+  padding: 0 20px;
+  font-size: 30px;
+  width: 100%;
+}
+.my-account .my-account--options .primary-action-button:hover {
+  background: #ff6331;
+  color: #fff;
+}
 .my-account .my-account--options li {
-  margin: 25px 35px;
+  margin: 30px 35px;
 }
 .my-account hr {
   border-width: 2px;
@@ -296,6 +430,24 @@ h1 {
   border-width: 2px;
   margin: 30px 0;
   border-color: #ff6331;
+}
+.contact {
+  color: #fff;
+}
+.contact textarea {
+  border-color: #fff;
+  color: #fff;
+}
+.contact .btn-back {
+  margin-bottom: 50px;
+}
+.contact .contact--header {
+  margin-bottom: 30px;
+}
+.contact .contact--header h1 {
+  text-transform: uppercase;
+  font-size: 66px;
+  margin-bottom: 5px;
 }
 @media (min-width: 992px) {
   .my-account .text-right {
@@ -378,7 +530,6 @@ h1 {
 }
 .form--radio .form--radio--option {
   font-weight: normal;
-  margin: 30px 0 0 0;
 }
 .form--radio .form--radio--input {
   vertical-align: middle;
@@ -471,34 +622,41 @@ h1 {
   }
 }
 .plan-table {
-  padding: 0;
-  margin: 0;
-  border: none;
-  width: 100%;
+  margin: 35px;
 }
-.plan-table th {
-  color: #ffcf46;
-  width: 20%;
-  font-weight: normal;
-}
-.plan-table td {
+.plan-table.plan-table--green .row {
   color: #fff;
-}
-.plan-table th,
-.plan-table td {
-  padding: 40px 20px;
-  text-align: center;
-  font-size: 32px;
-}
-.plan-table thead tr {
   background-color: #00b68f;
 }
-.plan-table tbody tr {
+.plan-table.plan-table--green .row.even,
+.plan-table.plan-table--green .row:nth-child(even) {
   background-color: #00dbac;
 }
-.plan-table tbody tr.even,
-.plan-table tbody tr:nth-child(even) {
-  background-color: #00b68f;
+.plan-table.plan-table--orange .row {
+  color: #fff;
+  background-color: #ff6432;
+}
+.plan-table.plan-table--orange .row.even,
+.plan-table.plan-table--orange .row:nth-child(even) {
+  background-color: #ff7245;
+}
+.plan-table.plan-table--yellow .row {
+  color: #ff6432;
+  background-color: #ffcf46;
+}
+.plan-table.plan-table--yellow .row.even,
+.plan-table.plan-table--yellow .row:nth-child(even) {
+  background-color: #fff264;
+}
+.plan-table .row [class^="col-md"] {
+  padding: 35px 0;
+}
+.plan-table .row .icon {
+  text-align: center;
+}
+.plan-table .row .text {
+  padding: 20px 10px;
+  font-size: 24px;
 }
 .primary-action-color {
   color: #ff6331;
@@ -723,6 +881,12 @@ h1 {
   border-width: 2px;
   margin: 40px 0;
 }
+.plans .options-deliver-method {
+  margin-top: 40px;
+}
+.plans .options-deliver-method li {
+  padding: 5px 0;
+}
 .plans.basket--bg {
   background-repeat: no-repeat;
   background-position: right -15px;
@@ -762,7 +926,14 @@ h1 {
   font-size: 41px;
 }
 .plans .plan .plan--price .price small {
-  font-size: 32px;
+  font-size: 80%;
+  padding-right: 4px;
+}
+.plans .plan .plan--price.plan--price--small {
+  font-size: 18px;
+}
+.plans .plan .plan--price.plan--price--small .price {
+  font-size: 24px !important;
 }
 .plans .plan .plan--description {
   padding: 0;
@@ -857,6 +1028,19 @@ h1 {
 .plans.p.basket--bg {
   background-image: url("../img/plans/bg/small.png");
 }
+.plans.p .btn-option {
+  border: 2px solid #ff6331;
+  color: #ff6331;
+}
+.plans.p .btn-option:hover,
+.plans.p .btn-option:focus {
+  text-decoration: none;
+  color: #ff6331;
+}
+.plans.p .btn-option.btn-option--active {
+  color: #fff;
+  background-color: #ff6331;
+}
 .plans.m {
   color: #00b68f;
 }
@@ -904,6 +1088,9 @@ h1 {
 .plans.m .plan .plan--price .g {
   display: none;
 }
+.plans.m select {
+  background-image: url("../img/form/arrow_green.png") !important; /*Adds background-image*/
+}
 .plans.m .plan--options .plan--option--p {
   background-image: url("../img/plans/icon/p_small_yellow.png");
 }
@@ -922,7 +1109,7 @@ h1 {
   background-image: url("../img/plans/bg/medium.png");
 }
 .plans.g {
-  color: #00b68f;
+  color: #ff6331;
 }
 .plans.g h1,
 .plans.g h2,
@@ -931,26 +1118,26 @@ h1 {
   color: #ffcf46;
 }
 .plans.g hr {
-  border-color: #00b68f;
+  border-color: #ff6331;
 }
 .plans.g .delivery-time .delivery-time--line {
-  background: #00b68f;
+  background: #ff6331;
 }
 .plans.g .form--radio .form--radio--input {
-  border-color: #00b68f;
+  border-color: #ff6331;
 }
 .plans.g .form--radio .form--radio--input.checked {
-  background: #00b68f;
+  background: #ff6331;
 }
 .plans.g .form--radio .form--label--input {
-  color: #00b68f;
+  color: #ff6331;
 }
 .plans.g .btn--outline {
-  border-color: #00b68f;
-  color: #00b68f;
+  border-color: #ff6331;
+  color: #ff6331;
 }
 .plans.g .form .form--row input {
-  border-bottom-color: #00b68f;
+  border-bottom-color: #ff6331;
 }
 .plans.g .form .form--row select {
   background-image: url("../img/form/arrow_green.png");
@@ -972,21 +1159,34 @@ h1 {
   display: none;
 }
 .plans.g .plan--options .plan--option--p {
-  background-image: url("../img/plans/icon/p_small_green.png");
+  background-image: url("../img/plans/icon/p_small_orange.png");
 }
 .plans.g .plan--options .plan--option--m {
-  background-image: url("../img/plans/icon/m_small_green.png");
+  background-image: url("../img/plans/icon/m_small_orange.png");
 }
 .plans.g .plan--options .plan--option--g {
   width: 103px;
   height: 102px;
-  background-image: url("../img/plans/icon/g_active_green.png");
+  background-image: url("../img/plans/icon/g_active_orange.png");
 }
 .plans.g .plan--description .plan--description--g {
   display: block;
 }
 .plans.g.basket--bg {
   background-image: url("../img/plans/bg/big.png");
+}
+.plans.g .btn-option {
+  border: 2px solid #ff6331;
+  color: #ff6331;
+}
+.plans.g .btn-option:hover,
+.plans.g .btn-option:focus {
+  text-decoration: none;
+  color: #ff6331;
+}
+.plans.g .btn-option.btn-option--active {
+  color: #fff;
+  background-color: #ff6331;
 }
 .plans .table-responsive {
   margin: 25px 0;
@@ -1042,11 +1242,110 @@ h1 {
   margin: 0 0 20px 0;
 }
 .about-us .about-us--highlight {
-  margin-bottom: 70px;
+  margin: 0 0 0 30px;
 }
 .about-us .about-us--text {
   padding-left: 20px;
   margin-bottom: 70px;
+}
+.overlay {
+  background-color: #ff6331;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1900;
+  overflow: auto;
+  display: none;
+}
+.overlay .btn-close {
+  width: 20px;
+  height: 20px;
+  background: url("../img/close-btn.png") no-repeat center center;
+  cursor: pointer;
+  top: 50px;
+  right: 50px;
+  position: fixed;
+  z-index: 9901;
+}
+.overlay .container {
+  width: 100%;
+  max-width: 1180px;
+  position: relative;
+}
+.overlay-login-form {
+  z-index: 999999;
+}
+.login {
+  color: #fff;
+  background: #ffcf46;
+}
+.login .container {
+  background: url("../img/bg-login.png") no-repeat right 0px;
+  min-height: 630px;
+}
+.login .modal-login-options-list {
+  margin-top: 30px;
+}
+.login .modal-login-options-list li {
+  display: block;
+  padding: 30px 0;
+}
+.login .btn-signin {
+  margin: 50px 0;
+}
+.login .btn-signin,
+.login .btn-options {
+  border-color: #ff6331;
+  color: #ff6331;
+  font-size: 28px;
+  line-height: 50px;
+  border-radius: 25px;
+}
+.login .btn-signin:hover,
+.login .btn-options:hover {
+  color: #ffcf46;
+  background: #ff6331;
+}
+.login .login--header {
+  margin-bottom: 30px;
+}
+.login .login--header h1 {
+  text-transform: uppercase;
+  font-size: 66px;
+  margin-bottom: 5px;
+}
+.faq .btn-back {
+  margin: 50px 0;
+}
+.faq p {
+  color: #fff;
+}
+.faq h1,
+.faq h3 {
+  text-transform: uppercase;
+  color: #ffcf46;
+}
+.faq .faq--header {
+  margin-bottom: 80px;
+}
+.faq .faq--header h1 {
+  font-size: 66px;
+  margin-bottom: 5px;
+}
+.faq .faq--header p {
+  font-size: 24px;
+}
+.faq .faq--item {
+  margin-bottom: 30px;
+}
+.faq .faq--item h3 {
+  font-size: 30px;
+}
+.faq .faq--item p {
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 .footer {
   margin-top: 40px;
