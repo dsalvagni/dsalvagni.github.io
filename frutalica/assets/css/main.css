@@ -708,7 +708,7 @@ h1 {
 }
 .options .option .option-description .option-description-price {
   color: #ffcf46;
-  font-size: 32px;
+  font-size: 30px;
 }
 .options .option-p {
   background-image: url("../img/options/p/bg.png");
@@ -768,7 +768,7 @@ h1 {
 }
 .frutalica .navbar .main-menu .main-menu--left,
 .frutalica .navbar .main-menu .main-menu--right {
-  width: 45.5%;
+  width: 46%;
 }
 .frutalica .navbar .main-menu .main-menu--logo {
   width: 8%;
@@ -1242,11 +1242,23 @@ h1 {
   margin: 0 0 20px 0;
 }
 .about-us .about-us--highlight {
-  margin: 0 0 0 30px;
+  margin: 0 0 50px 30px;
 }
 .about-us .about-us--text {
   padding-left: 20px;
   margin-bottom: 70px;
+  line-height: 1.4;
+}
+.about-us .about-us--text:first-child {
+  padding-top: 35px;
+}
+@media (min-width: 992px) {
+  .about-us .about-us--highlight {
+    margin: 0 0 0 30px;
+  }
+  .about-us .about-us--text {
+    line-height: 2;
+  }
 }
 .overlay {
   background-color: #ff6331;
