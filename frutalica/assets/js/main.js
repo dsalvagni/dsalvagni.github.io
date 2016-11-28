@@ -144,9 +144,15 @@ $(function() {
      */
     $('.form--radio .form--radio--option').on('click',function() {
         var elm = $(this),
+            input = elm.find('input'),
+            name = input.attr('name'),
             parent = elm.closest('.form--radio');
-        parent.find('.form--radio--input.checked input').prop('checked',false);
-        parent.find('.form--radio--input.checked').removeClass('checked');
+            
+        parent.find('.form--radio--input.checked input[name="'+name+'"]')
+            .prop('checked',false);
+        parent.find('.form--radio--input.checked input[name="'+name+'"]')
+            .parent()
+                .removeClass('checked');
         elm.find('.form--radio--input').addClass('checked');
         elm.find('.form--radio--input.checked input').prop('checked',true);
     });

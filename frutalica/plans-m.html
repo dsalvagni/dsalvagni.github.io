@@ -101,7 +101,7 @@
                     <!--/SELEÇÃO DE TAMANHO DA CESTA-->
                     <div class="hide checkout-info">
                         <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
+                            <div class="col-sm-8 col-sm-offset-2">
                                 <input type="hidden" name="deliver" value="receber">
                                 <ul class="options-deliver-method list-unstyled">
                                     <li><a href="javascript:;" class="btn-option btn-option--active" data-option="receber">Receber em meu endereço</a></li>
@@ -125,17 +125,15 @@
                             </p>
                             
                             <div class="plan--price bold">
-                                <span class="bold">4x/mês</span> - <span class="price"><small>R$</small>290,00</span>
-                                <p class="bold">Entrega semanal durante 01 mês.</p>
+                                <span class="bold">Entrega Semanal</span> - <span class="price"><small>R$</small>290,00</span>
                             </div>
 
                             <div class="plan--price plan--price--small">
-                                2x/mês - <span class="price"><small>R$</small>160,00</span>
-                                <p>Entrega quinzenal durante <strong>01</strong> mês.</p>
+                                Entrega Quinzenal - <span class="price"><small>R$</small>160,00</span>
                             </div>
 
                             <p>
-                                <small>+ <strong>Frete</strong> ou retirada em <strong>Ponto de Coleta</strong>.</small>
+                                <small>Consulte a <strong>Taxa de Entrega</strong> para o seu endereço <br> ou qual o <strong>Ponto de Coleta</strong> mais próximo de você.</small>
                             </p>
                         </div>
                         <a href="javascript:;" id="start-checkout" class="call-to-action--button">Assine agora.</a>
@@ -145,12 +143,14 @@
                     <div class="form hide checkout-info">
                         <h1>MÉTODO DE ENTREGA</h1>
                         <div class="form--row">
+                            <a href="javascript:;" class="btn--outline pull-right">Calcular</a>
                             <label class="form--label">
                             CEP:
                         </label>
                             <span><input type="text" name="cep"/></span>
                         </div>
                         <div class="form--row">
+                            <a href="javascript:;" class="btn--outline pull-right">Calcular</a>
                             <label class="form--label">
                             Cupom de desconto:
                         </label>
@@ -178,6 +178,82 @@
             </div>
         </div>
 
+        <!--FREQUÊNCIA-->
+        <div class="row hide checkout-info">
+
+            <div class="col-md-12">
+                <hr/>
+            </div>
+            <div class="col-md-12">
+                <h1 class="text-center">
+                    SELECIONE A FREQUÊNCIA E O DIA EM QUE <br> VOCÊ DESEJA RECEBER / COLETAR SUAS CESTAS
+                </h1>
+
+                <div class="row delivery-time">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row no-gutters form--radio">
+                            <div class="col-md-1 relative hidden-sm hidden-xs">
+                                <div class="delivery-time--line"></div>
+                            </div>
+                            <div class="col-md-2 relative text-center">
+                                <div class="delivery-time--line"></div>
+                                <label class="form--radio--option">
+                                <span class="form--radio--input checked">
+                                    <input name="frequency-period" checked type="radio" value="Semanal"/>
+                                </span>
+                                <span class="form--radio--label">
+                                    Assinatura <br> <strong>Semanal</strong>
+                                </span>
+                            </label>
+                            </div>
+                            <div class="col-md-3 relative text-center">
+                                <div class="delivery-time--line"></div>
+
+                                <label class="form--radio--option">
+                                <span class="form--radio--input checked">
+                                <input name="frequency-period" type="radio" value="Quinzenal"/>
+                                </span>
+                                <span class="form--radio--label">
+                                    Assinatura <br> <strong>Quinzenal</strong>
+                                </span>
+                            </label>
+                            </div>
+                            <div class="col-md-3 relative text-center">
+                                <div class="delivery-time--line"></div>
+
+                                <label class="form--radio--option">
+                            <span class="form--radio--input">
+                                <input name="frequency-date" checked type="radio" value="Terça-feira"/>
+                            </span>
+                                <span class="form--radio--label">
+                                    <strong>Terça-feira</strong>
+                                </span>
+                            </label>
+                            </div>
+                            <div class="col-md-2 relative text-center">
+                                <div class="delivery-time--line"></div>
+
+                                <label class="form--radio--option">
+                            <span class="form--radio--input">
+                                <input name="frequency-date" type="radio" value="Sexta-feira"/>
+                            </span>
+                                <span class="form--radio--label">
+                                    <strong>Sexta-feira</strong>
+                                </span>
+                            </label>
+                            </div>
+                            <div class="col-md-1 relative  hidden-sm hidden-xs">
+                                <div class="delivery-time--line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="font-md text-center">
+                    Por favor, selecione <strong>02</strong> das <strong>04</strong> opções acima.
+                </p>
+            </div>
+        </div>
+        <!--/FREQUÊNCIA-->
         <!--PONTO DE COLETA-->
         <div class="row hide" id="delivery-method-retirar">
             <div class="col-md-12">
@@ -216,46 +292,35 @@
             </div>
             <div class="col-md-12">
                 <h1 class="text-center">
-                    SELECIONE A FAIXA HORÁRIA QUE VOCÊ <br/> DESEJA RECEBER A SUA CAIXA*
+                    SELECIONE A FAIXA HORÁRIA QUE VOCÊ <br> DESEJA RECEBER / COLETAR A SUAS CESTAS
                 </h1>
 
                 <div class="row delivery-time">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="row no-gutters form--radio">
-                            <div class="col-md-1 relative hidden-sm hidden-xs">
+                            <div class="col-md-2 relative hidden-sm hidden-xs">
                                 <div class="delivery-time--line"></div>
                             </div>
                             <div class="col-md-2 relative text-center">
                                 <div class="delivery-time--line"></div>
                                 <label class="form--radio--option">
-                                <span class="form--radio--input checked">
-                                    <input name="delivery-time" type="radio" value="06h00-08h00"/>
-                                </span>
-                                <span class="form--radio--label">
-                                    Entre <strong>06h00</strong><br> e <strong>08h00</strong>
-                                </span>
-                            </label>
-                            </div>
-                            <div class="col-md-3 relative text-center">
-                                <div class="delivery-time--line"></div>
-                                <label class="form--radio--option">
                                 <span class="form--radio--input">
-                                    <input name="delivery-time" type="radio" value="09h00-11h00"/>
+                                    <input name="delivery-time" type="radio" value="09h00-12h00"/>
                                 </span>
                                 <span class="form--radio--label">
-                                    Entre <strong>09h00</strong><br> e <strong>11h00</strong>
+                                    Entre <strong>09h00</strong><br> e <strong>12h00</strong>
                                 </span>
                             </label>
                             </div>
-                            <div class="col-md-3 relative text-center">
+                            <div class="col-md-4 relative text-center">
                                 <div class="delivery-time--line"></div>
 
                                 <label class="form--radio--option">
                                 <span class="form--radio--input">
-                                <input name="delivery-time" type="radio" value="13h00-15h00"/>
+                                <input name="delivery-time" type="radio" value="14h00-16h00"/>
                                 </span>
                                 <span class="form--radio--label">
-                                    Entre <strong>13h00</strong><br> e <strong>15h00</strong>
+                                    Entre <strong>14h00</strong><br> e <strong>16h00</strong>
                                 </span>
                             </label>
                             </div>
@@ -264,14 +329,14 @@
 
                                 <label class="form--radio--option">
                             <span class="form--radio--input">
-                                <input name="delivery-time" type="radio" value="16h00-18h00"/>
+                                <input name="delivery-time" type="radio" value="16h30-18h30"/>
                             </span>
                                 <span class="form--radio--label">
-                                    Entre <strong>16h00</strong><br> e <strong>18h00</strong>
+                                    Entre <strong>16h30</strong><br> e <strong>18h30</strong>
                                 </span>
                             </label>
                             </div>
-                            <div class="col-md-1 relative  hidden-sm hidden-xs">
+                            <div class="col-md-2 relative  hidden-sm hidden-xs">
                                 <div class="delivery-time--line"></div>
                             </div>
                         </div>
@@ -559,8 +624,8 @@
                 <div class="col-md-3 col-xs-6">
                     <h2>CONTATO</h2>
 
-                    <p>R. João Pessoa, No 1859. <br/> Velha. Blumenau, SC.<br/>
-                        <a href="tel:+55 47 3039.2756">+ 55 47 3039.2756</a><br/>
+                    <p>R. Iguaçu, No 209. Itoupava Seca, <br/> Blumenau/SC. CEP 89030-030<br/>
+                        <a href="tel:+ 55 47 30392756">+ 55 47 3039.2756</a><br/>
                         <a href="mailto:contato@frutalica.com.br">contato@frutalica.com.br</a></p>
                 </div>
                 <div class="col-md-3 col-xs-6">
@@ -724,6 +789,22 @@
             </div>
 
             <div class="faq--item">
+                <h3>Qual a quantidade de cada item nas cestas?</h3>
+                <p>As porções são calculadas baseadas no consumo médio de uma pessoa ao longo de uma semana, considerando a utilização de ao menos um item por dia nas preparações. Assim sendo, a cesta Pequena atende até 2 pessoas, a cesta Média até 3 pessoas e a cesta Grande até quatro pessoas.</p>
+            </div>
+
+            <div class="faq--item">
+                <h3>Como faço para alterar o meu Plano?</h3>
+                <p>É possível alterar tudo, a qualquer momento: o tamanho da cesta, a frequência do recebimento, o dia da semana e a faixa horária. Basta acessar a “Minha Conta” com seu login/senha e realizar as alterações necessárias no menu “Assinaturas”. </p>
+                <p>É importante realizar a atualização destas informações com - no mínimo - dois dias de antecedência da sua entrega habitual, caso contrário não conseguiremos atender sua solicitação nesta entrega.</p>
+            </div>
+
+            <div class="faq--item">
+                <h3>Posso escolher receber apenas 1 cesta para experimentar?</h3>
+                <p>Para uma experiência completa, sugerimos receber – no mínimo – duas cestas. Desta forma você terá a oportunidade de experimentar uma maior variedade de alimentos, bem como avaliar se a frequência do recebimento e o tamanho da cesta escolhida são adequados para a sua necessidade. </p>
+            </div>
+
+            <div class="faq--item">
                 <h3>Passo o dia todo fora de casa. <br>posso pedir para entregar no meu trabalho?</h3>
                 <p>Sim. Você pode indicar qualquer endereço para realizarmos as entregas, desde que sempre tenha alguém disponível
                     para recebê-las nos dias e horários predefinidos.</p>
@@ -779,15 +860,6 @@
                     plano contratado será suspenso juntamente com a respectiva entrega. Se a assinatura foi realizada através
                     de boleto, as entregas contratadas no seu último mês de assinatura serão todas realizadas.
                 </p>
-            </div>
-
-            <div class="faq--item">
-                <h3>O dia da semana e a faixa de horário escolhidos são fixos? <br> É possível alterá-los?</h3>
-                <p>
-                    Sim. As entregas ocorrerão periodicamente no dia da semana e faixa de horário previstos, porém é possível alterá-los. Basta
-                    acessar a “Minha Conta” com seu login/senha e alterar o dia da semana ou a faixa de horário no menu “Cadastro”.
-                    É importante realizar a atualização destas informações com, no mínimo, dois dias de antecedência da sua
-                    entrega habitual, caso contrário não conseguiremos atender sua solicitação nesta entrega.</p>
             </div>
 
             <a href="javascript:hideModal()" class="btn-outline-white btn-back">Voltar ao Site</a>

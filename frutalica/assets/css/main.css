@@ -887,6 +887,9 @@ h1 {
 .plans .options-deliver-method li {
   padding: 5px 0;
 }
+.plans .options-deliver-method a {
+  font-size: 20px;
+}
 .plans.basket--bg {
   background-repeat: no-repeat;
   background-position: right -15px;
