@@ -14,7 +14,9 @@
     <style>
         .product h2 { color: green; margin:0; padding: 0; line-height: 46px;}
         .product h2 small { color: gray;}
-        .carousel .item img { margin: 0 auto; height: 400px;}
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: 992px) { .carousel .item img { margin: 0 auto; max-height: 400px;} }
+        
         .page-header p {
             font-size: 16px;
         }
@@ -237,12 +239,12 @@ ga('send', 'pageview');
                         </a>
                     </div>
                     <div class="caption">
-                        <h3>Estante Provençal MDF</h3>
+                        <h3>Estante MDF</h3>
                         <p></p>
                         <div class="row">
-                            <div class="col-md-6"><h2>R$ 450 <small>(cada)</small></h2></div>
+                            <div class="col-md-6"><h2>R$ 450</h2></div>
                             <div class="col-md-6"><p><a href="http://produto.mercadolivre.com.br/MLB-837335137-estante-provencal-em-mdf-_JM" target="_blank"
-                             class="btn btn-default btn-block btn-lg" role="button" onclick="ga('send', 'event', 'Quero', 'Estante Provençal MDF');">Quero &#x1F499;</a></p></div>
+                             class="btn btn-default btn-block btn-lg" role="button" onclick="ga('send', 'event', 'Quero', 'Estante MDF');">Quero &#x1F499;</a></p></div>
                         </div>                        
                     </div>
                 </div>
