@@ -1,6 +1,6 @@
 name: Daniel Salvagni
-description: Full-stack web developer
-meta_description: "Front-end, back-end, PHP, Javascript, AngularJS, etc..."
+description: personal blog
+meta_description: "Personal thoughts"
 author: Daniel Salvagni
 email: danielsalvagni@gmail.com
 twitter_username: danielsalvagni
@@ -10,13 +10,15 @@ sass:
   style: compressed
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 cover: true
 logo: http://gravatar.com/avatar/56229dfef94a5a06461a7861cad15fc3/?s=100&d=mm
 paginate: 15
 baseurl: /
 domain_name: 'http://dsalvagni.com.br'
 google_analytics: 'UA-38161905-1'
+
+plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'http://dsalvagni.com.br'
