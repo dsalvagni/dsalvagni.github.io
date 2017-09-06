@@ -3,11 +3,15 @@ layout: page
 title: About me 
 ---
 
-I’m a full-stack web developer. Started developing websites in 2001 and I’ve been working with web development since 2003. I’m fluent in HTML, CSS, JavaScript, PHP and MySQL.
+Hi there!
 
-My main skills are write scalabe, modular and readable code and be capable to work in frontend and backend. 
+I'm Daniel, a brazillian guy who likes to watch football, movies & tv series on his spare time. Besides that, I'm trying to get back to _fiction_ and _romance_ books and give Netflix some time. Currently based in Italy, I'm working as a FE Developer full time remote at Sherpany while also enjoying to travel around this beautiful country when possible.
 
-I learned all by myself, as self-taught. However, nowadays I’m in the college to get my graduation in Analysis and systems development.
+Professionally speaking, I’m a self-taught front-end developer. I started developing websites in 2001 and I’ve been working with web development since 2003. I’m fluent in HTML, CSS, JavaScript and I also have a strong background in PHP and MySQL. My main skills are to write scalable, modular and readable code. 
+
+You can check my contact info below.
+
+See you! ✌️
 
 ![MCSD](/assets/images/cert.jpg)
 
@@ -21,6 +25,12 @@ I learned all by myself, as self-taught. However, nowadays I’m in the college 
     </li>
     <li>
         <a href="https://github.com/dsalvagni"><i class="fa fa-fw fa-github"></i> dsalvagni</a>
+    </li>
+    <li>
+        <a href="https://goodreads.com/dsalvagni"><i class="fa fa-fw fa-book"></i> dsalvagni</a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/user/dsalvagni"><i class="fa fa-fw fa-spotify"></i> dsalvagni</a>
     </li>
     <li>
         <a href="mailto:danielsalvagni@gmail.com"><i class="fa fa-fw fa-envelope"></i> danielsalvagni@gmail.com</a>
