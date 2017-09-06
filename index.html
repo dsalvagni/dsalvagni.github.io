@@ -12,14 +12,14 @@ about: 'about.html'
                     <img src="{{ site.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
+        
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
+            <h1 class="page-title">{{ site.name | lowercase }}</h1>
             <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+                <a href='{{ site.baseurl }}{{ page.about }}'>{{ site.description }}</a>
             </h2>
         </div>
     </div>
@@ -33,7 +33,6 @@ about: 'about.html'
     <div class="extra-pagination inner">
         {% include pagination.html %}
     </div>
-
     {% for post in paginator.posts %}
 
     <article class="post">
@@ -41,18 +40,14 @@ about: 'about.html'
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}"> Read more &raquo;</a>
+            {{ post.excerpt }}
         </section>
         <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="http://gravatar.com/avatar/56229dfef94a5a06461a7861cad15fc3/?s=268&d=mm" alt="Daniel Salvagni" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+                {{ post.categories | array_to_sentence_string }} 
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
+                @ {{ post.date | date_to_string }}
             </time>
             {% assign num_words = post.content | strip_html | number_of_words %}
             {% assign minutes = num_words | divided_by: 200.0 %}
@@ -72,6 +67,8 @@ about: 'about.html'
             {% endif %}
 
             <time class="post-time-to-read">{{reading_time}}</time>
+            
+            <a class="read-more" href="{{ post.url }}"> Read more &raquo;</a>
         </footer>
     </article>
 

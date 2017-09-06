@@ -13,7 +13,13 @@ You can check my contact info below.
 
 See you! ✌️
 
-![MCSD](/assets/images/cert.jpg)
+<footer class="post-footer">
+    <figure class="author-image">
+        <a class="img" href="{{ site.baseurl }}" style="background-image: url(http://gravatar.com/avatar/56229dfef94a5a06461a7861cad15fc3/?s=100&d=mm)">
+        <span class="hidden">{{site.author}}'s Picture</span></a>
+    </figure>
+</footer>
+
 
 #### You can reach me at 
 <ul class="list-unstyled no-link">

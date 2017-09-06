@@ -1,5 +1,5 @@
-name: Daniel Salvagni
-description: personal blog
+name: Personal blog
+description: Daniel Salvagni
 meta_description: "Personal thoughts"
 author: Daniel Salvagni
 email: danielsalvagni@gmail.com
@@ -17,9 +17,9 @@ paginate: 15
 baseurl: /
 domain_name: 'http://dsalvagni.com.br'
 google_analytics: 'UA-38161905-1'
-
-plugins: [jekyll-paginate]
-
 # Details for the RSS feed generator
 url:            'http://dsalvagni.com.br'
 author:         'Daniel Salvagni'
+gems: [jekyll-paginate, jekyll-feed]
+feed:
+  path: rss.xml
