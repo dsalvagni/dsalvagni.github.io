@@ -179,7 +179,6 @@
     display: none;
 }
 
-.post-content { text-align: justify; }
 
 /* Keep images centred and within the bounds of the post-width */
 .post-content img {

@@ -36,5 +36,4 @@ Besides that, I learned a new language. Yes, I'm trying to speak only italian he
 
 Like I said previously, so many things happened since my last post here.
 
-
-🎧 Now playing [Sonic Youth - Teen Age Riot](https://open.spotify.com/track/0WIbzDVEpmOyBnqqdtqIL9) 
+🎧 [Sonic Youth - Teen Age Riot](https://open.spotify.com/track/0WIbzDVEpmOyBnqqdtqIL9) 
