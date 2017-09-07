@@ -9,7 +9,6 @@ github_username: dsalvagni
 sass:
   style: compressed
 
-markdown: redcarpet
 highlighter: rouge
 cover: true
 logo: http://gravatar.com/avatar/56229dfef94a5a06461a7861cad15fc3/?s=100&d=mm
