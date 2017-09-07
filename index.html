@@ -13,11 +13,14 @@ about: 'about.html'
                 </a>
             {% endif %}
         
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
+        
+        <a class="subscribe-button" href="{{ site.baseurl }}rss.xml"><i class="fa fa-rss"></i> Subscribe</a>
+
+        <a class="follow-button" href="http://www.twitter.com/danielsalvagni"><i class="fa fa-twitter"></i> danielsalvagni</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name | lowercase }}</h1>
+            <h1 class="page-title">{{ site.name | downcase }}</h1>
             <h2 class="page-description">
                 <a href='{{ site.baseurl }}{{ page.about }}'>{{ site.description }}</a>
             </h2>

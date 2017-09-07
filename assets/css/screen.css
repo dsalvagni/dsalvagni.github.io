@@ -348,7 +348,7 @@ pre {
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
+    background: #FFF;
     border-radius: 3px;
 }
 
@@ -585,7 +585,7 @@ margin on the iframe, cause it breaks stuff. */
     text-transform: uppercase;
     line-height: 35px;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
+    background: transparent;
     transition: all ease 0.3s;
 }
 .back-button:before {
@@ -596,7 +596,7 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 8px;
 }
 
-.subscribe-button {
+.subscribe-button, .follow-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -612,10 +612,11 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 35px;
     white-space: nowrap;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
+    background: transparent;
     transition: all ease 0.3s;
+    margin-left: 15px;
 }
-.subscribe-button:before {
+.subscribe-button:before, .follow-button:before {
     font-size: 9px;
     margin-right: 6px;
 }
@@ -635,6 +636,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
+.no-cover .follow-button,
 .no-cover .subscribe-button {
     background: none;
 }
@@ -644,6 +646,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
+.main-nav.overlay .follow-button,
 .main-nav.overlay .subscribe-button {
     border-color: rgba(255,255,255,0.6);
 }
@@ -657,6 +660,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
+.follow-button:hover,
 .subscribe-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
@@ -665,7 +669,7 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 20px 0 20px 0;
-    padding: 5px 20px;
+    padding: 5px 20px 10px 20px;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: lighter;
@@ -706,7 +710,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
-.no-cover .main-nav.overlay .subscribe-button {
+.no-cover .main-nav.overlay .subscribe-button,
+.no-cover .main-nav.overlay .follow-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }
@@ -741,13 +746,13 @@ margin on the iframe, cause it breaks stuff. */
 .post:after {
     display: block;
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border: #EBF2F6 1px solid;
     position: absolute;
-    bottom: -6px;
+    bottom: -5px;
     left: 50%;
-    margin-left: -6px;
+    margin-left: -5px;
     background: #FFF;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -1515,6 +1520,7 @@ body:not(.post-template) .post-title {
     }
 
     .back-button,
+    .follow-button,
     .subscribe-button {
         height: 44px;
         line-height: 41px;
@@ -1523,6 +1529,7 @@ body:not(.post-template) .post-title {
         background: transparent;
     }
     .back-button:hover,
+    .follow-button:hover,
     .subscribe-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
@@ -1535,6 +1542,10 @@ body:not(.post-template) .post-title {
 
     .subscribe-button {
         padding: 0 12px;
+    }
+
+    .follow-button {
+        margin-right: 15px !important;
     }
 
     .main-nav.overlay a:hover {
