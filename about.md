@@ -5,7 +5,7 @@ title: About me
 
 Hi there!
 
-I'm Daniel, a brazillian guy who likes to watch football, movies & tv series on his spare time. Besides that, I'm trying to get back to _fiction_ and _romance_ books and give Netflix some time. Currently based in ~Italy 🇮🇹~ Berlin 🇩🇪, I'm working as a FE Developer full time remote at Sherpany while also enjoying to travel around this beautiful country when possible.
+I'm Daniel, a brazillian guy who likes to watch football, movies & tv series on his spare time. Besides that, I'm trying to get back to _fiction_ and _romance_ books and give Netflix some time. Currently based in ~Italy~ Berlin 🇩🇪, I'm working as a FE Developer full time remote at Sherpany while also enjoying to travel around when possible.
 
 Professionally speaking, I’m a self-taught front-end developer. I started developing websites in 2001 and I’ve been working with web development since 2003. I’m fluent in HTML, CSS, JavaScript and my main skills are to write scalable, modular and readable code. 
 
