@@ -20,7 +20,7 @@ Currently I rode in some different routes here with different distances as well.
 
 Considering my last ride, it wasn't that much longer in terms of distance but for sure in terms of time spent. I could've done it in a shorter time and I think there are two reasons I couldn't this time: 1) I decided to ride with my tyres on low pressure to make it more comfortable; 2) the most important one: my fitness level; There's one thing that I need to keep in mind always that I start to think in bike upgrades again:
 
-> is the man not the machine
+> it's the man not the machine
 
 I definitely need to improve my fitness level. I was felling ok while running although it was always hard to finish 5km in less than 30min. So to achieve a better fitness level I'll try to follow a training plan suggested on Garmin app. It's a 8-weeks-plan that aim to increase your resistance and give you strength enough to raise the average speed on trainings. I should make use of flat paths here in Berlin to improve my fitness conditions as I can almost simulate indoor conditions outside -- at least it seems so. Then, later, I can start to thinking on climbing small hills as it will require a better preparation. Meanwhile, I'm happy that I do such great rides with a good performance without coughing my lungs out.
 
