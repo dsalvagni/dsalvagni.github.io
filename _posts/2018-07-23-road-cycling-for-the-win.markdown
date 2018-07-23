@@ -2,8 +2,8 @@
 layout: post
 title: "Road Cycling for the win"
 date: 2018-07-23 19:00:00
-cover: /assets/images/posts/bike5.jpg
-image: /assets/images/posts/bike5.jpg
+cover: /assets/images/posts/bike5.JPG
+image: /assets/images/posts/bike5.JPG
 categories: [Life, Bike]
  
 ---
@@ -26,9 +26,9 @@ I definitely need to improve my fitness level. I was felling ok while running al
 
 I've being considering to do even longer trips such as a journey from Hamburg to Berlin (300km) or from Prague to Berlin (530km). I totally think it's doable but It'd be better to take it easy and be well-prepared before start thinking about such effort. Anyway, it's always good to set goals and try to reach them. Maybe I'll take a longer ride like this as a motivation to keep riding and keep improving. Can't wait to be able to do it.
 
-<img src="/assets/images/posts/bike1.jpg" style="max-width:100%; display:inline-block;">
-<img src="/assets/images/posts/bike2.jpg" style="max-width:100%; display:inline-block;">
-<img src="/assets/images/posts/bike3.jpg" style="max-width:100%; display:inline-block;">
-<img src="/assets/images/posts/bike4.jpg" style="max-width:100%; display:inline-block;">
+<img src="/assets/images/posts/bike1.JPG" style="max-width:100%; display:inline-block;">
+<img src="/assets/images/posts/bike2.JPG" style="max-width:100%; display:inline-block;">
+<img src="/assets/images/posts/bike3.JPG" style="max-width:100%; display:inline-block;">
+<img src="/assets/images/posts/bike4.JPG" style="max-width:100%; display:inline-block;">
 
 🎧 [Os Paralamas do Sucesso - O Caroço da Cabeça](https://open.spotify.com/track/37t2yNA6zGX6p8tD4gANer?si=r6q3_auQTHex1UoWfuyTug)
