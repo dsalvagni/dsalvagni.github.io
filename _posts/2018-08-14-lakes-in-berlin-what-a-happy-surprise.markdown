@@ -8,7 +8,7 @@ categories: [Life, Berlin, Lakes]
 
 ---
 
-I must say that find such a warm summer in Europe was a surprise for me. To be completely fair, these last two summers [hadn't not the normal average temperatures](https://www.bloomberg.com/news/articles/2018-06-01/balmy-june-to-boost-energy-use-with-europeans-turning-on-air-con) so and it's fair to say that even for people that are living here longer than me this weather wasn't expected. This is not small talk and I'm not here to warn of global warming, it's just a note to put you in context about why I'm so happy that around Berlin has an [incredible number of swimming lakes](https://www.visitberlin.de/en/lakes).
+I must say that find such a warm summer in Europe was a surprise for me. To be completely fair, these last two summers [hadn't not the normal average temperatures](https://www.bloomberg.com/news/articles/2018-06-01/balmy-june-to-boost-energy-use-with-europeans-turning-on-air-con) and it's fair to say that even for people that are living here longer than me this weather wasn't expected. This is not small talk and I'm not here to warn of global warming, it's just a note to put you in context about why I'm so happy that around Berlin has an [incredible number of swimming lakes](https://www.visitberlin.de/en/lakes).
 
 [Visitberlin.de](https://www.visitberlin.de) website has good recommendation regarding _how to visit_ and _where to go_. Worth to check it out. I've being in four of them and I'd the chance to swim in three. I went also to the Mügelsee, but I hadn't the chance to really enjoy it as I was on a bike ride - took some pictures though.
 
